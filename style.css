@@ -1,0 +1,138 @@
+body
+{
+	background-color: lightgray;
+	font-family:'Courier New','Century','Batnage';
+	color:white;
+	overflow: right;   
+}
+
+body #Home 
+{
+  /*width:auto;*/
+ /* margin: auto;*/
+
+
+}
+
+h1
+{
+	background-color: black; 
+	text-align: center;
+	border:0.15px solid white;
+	opacity: 75%;
+	padding: 20px;
+	margin-right: 25%;
+	shape-margin: 100%;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+h2 
+{
+	margin-left: 10px;
+	display: inline-block;
+	font-weight:normal;
+	line-height:1px solid white;
+	float: center;
+	padding: 12px;
+	background-color: black;
+		font-size:2vw;
+
+
+}
+
+h3
+{
+	color: white;
+	background-color: black;
+	opacity: 75%;
+	padding: auto;
+	min-width:1vw;
+	max-width: 30vw;
+	text-align:center;
+}
+
+ h4
+{
+ height:auto;
+ width:auto;
+}
+
+
+
+ figure 
+{
+	font-weight:normal;
+	text-transform:uppercase;
+	padding: 12px;
+	margin-top: 10px;
+	display: inline-table;
+	background-color: black;
+	oppacity:2%;
+
+}
+/*
+ section figure aside a img
+{
+    padding: 20px;
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+section  figure a img  p
+
+    max-width: 100%;
+	height: auto; padding: 20px;
+    text-decoration: none;
+	display: inline-block;	
+
+}
+
+body article figcaption 
+{
+	width:35%;
+    padding: 20px;   
+	display: inline-table;
+	margin-bottom: 10px ;
+	background-color: black;
+	opacity: 75%;
+
+}
+
+p a
+{
+ color:white;
+ display: inline-flex;
+}
+
+a img
+{
+    display: inline-block-table;
+    width:35%;
+	margin-left:1%; 
+    padding: 20px; 
+    max-width: 100%;
+    height:auto; 
+
+}
+*/
+
+article figure img h4 audio
+{
+	border:0.15px solid white;
+		max-width: 30%;
+
+
+}
+
+footer
+{
+	width: 100%;
+	height: 65px;
+	float: left;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	font-size:1.5vw;
+
+}
