@@ -6,7 +6,7 @@ body
 	overflow: right;   
 }
 
-body #Home 
+body #JaP 
 {
   /*width:auto;*/
  /* margin: auto;*/
@@ -14,6 +14,39 @@ body #Home
 
 }
 
+figure a{
+	color: orange;
+	text-decoration: none;
+	text-align: inline;
+	font-weight:normal;
+	background-color: black;
+    font-weight:normal;
+	display: inline-block;
+	oppacity:2%;
+		}
+
+figure a:hover 
+{
+color:yellow;
+}
+
+figure ul li a{
+	color: orange;
+	text-decoration: none;
+	text-align: inline;
+	font-weight:normal;
+	background-color: black;
+    font-weight:normal;
+	oppacity:2%;
+		}
+figure ul li a:hover 
+{
+color:yellow;
+}
+
+figure audio{
+	margin-top: 0%;
+}
 
 nav header
 {
@@ -64,15 +97,14 @@ color:yellow;
 
 h1
 {
-	background-color: black; 
 	text-align: center;
-	border:0.15px solid white;
 	opacity: 75%;
 	padding: 20px;
 	margin-right: 25%;
 	shape-margin: 100%;
 	margin-right: 25%;
 	margin-left: 25%;
+	color: lightyellow;
 }
 
 h2 
@@ -126,11 +158,10 @@ figure li a
 	text
 	text-transform:uppercase;
 	display: inline-table;
-	color: yellow;
+	color: white;
 	oppacity:2%;
 
 }
-
 
 /*
  section figure aside a img
@@ -150,7 +181,7 @@ section  figure a img  p
 
 }
 
-body article figcaption 
+body article  
 {
 	width:35%;
     padding: 20px;   
@@ -179,7 +210,19 @@ a img
 }
 */
 
-article figure img h4 audio
+body article  
+{
+	max-width:10vw;
+	display: inline-table;
+	margin-bottom: 10px ;
+	float: right;
+	margin-right: 5vw;
+	background-color: black;
+	opacity: 75%;
+
+}
+
+ figure img h4 audio
 {
 	border:0.15px solid white;
 		max-width: 30%;

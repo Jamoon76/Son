@@ -25,17 +25,7 @@
   
 	<h1>JàP</h1>
 
-	
-	<nav> 
-	<ul>
-
-	 <li><a href="JaP.html"><h2>à la demande</h2></a></li>
-
-	</ul>
-	</nav>
     </header>
-
-<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 <style type="text/css" >
    body {
@@ -49,21 +39,34 @@
 	}
 
 	#playlist{
-		position: 100vw;
+		/*position: 100vw;*/
 		list-style: none;
 		color: white;
 		text-decoration: none;
 		background-color: black;
 	}
 	#playlist .current-song a{
-		color:orange;
+		color:yellow;
 	}
 
 </style>
  
+<article>
 <figure>
+
 	<audio src="" controls id="audioPlayer">
 	</audio>
+</br>
+
+    <a href="#" onclick="playlist.prevTrack();">PreV</a>
+	<a href="#" onclick="playlist.nextTrack();">NexT</a>
+	<a href="#" onclick="playlist.toggleShuffle();">Randome</a>	
+
+	<style type="text/css" >
+
+
+	</style>
+
 	<ul id="playlist">
 		<li class="current-song"><a href="son/Reggae2.mp3">Reggae2</a></li>
 		<li><a href="son/L.mp3">Lose</a></li>
@@ -100,13 +103,29 @@
 		<li><a href="son/BB.mp3">BB</a></li>
 		<li><a href="son/projetChoral.mp3">Projet chorale</a></li>
 	</ul>
+</figure>
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="audioPlayer.js"></script>
+
 <script>
+
 	audioPlayer();	
 </script>
-</figure>
 
+<script>
+	    var config = {
+          autoplay: true, 
+            loop: true,
+            shuffle: true
+        };
+        var playlist = new AudioPlaylist();	
+</script>
+</article>
 <figure>
+
+
 <div id= 'R2'>
 	<style type="text/css">
 		#R2 {
