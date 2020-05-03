@@ -2,23 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>♬ audio.js</title>
+    <title>♬ playListe</title>
     <meta content="width=device-width, initial-scale=0.6" name="viewport">
     <link rel="stylesheet" href="style.css" href="music_list.js" />
 
 
  </head>
-  <body>
-
-      <h1>Ja♬<em></em></h1>
-
-       <nav> 
-     <ul>
-           <li><a href="index.html"><h2>Home</h2></a></li>   
-     </ul>
-</nav>
 
 
+<h1>Ja♬<em></em></h1>
+
+
+
+
+<body>
 
 <div id="bandeau_vertical" style="position:center;width:0px;height:0px;border:0.1px solid black;overflow:hidden;">
  </div>
@@ -119,6 +116,37 @@ window.onload=function() {
 </script>
 
 
+
+<nav>
+  <ul>
+    <li class="deroulant"><a href="#">Home &ensp;</a>
+      <ul class="sous">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index2.html">playliste</a></li>
+      </ul>
+    </li>
+    <li class="deroulant"><a href="#">autre &ensp;</a>
+      <ul class="sous">
+        <li><a href="https://julien-amkadou.com/AMKADOU_Julien_Work.html">Works</a></li>
+        <li><a href="https://julien-amkadou.com/videos.html">Videos</a></li>
+        <li><a href="https://julien-amkadou.com/AMKADOU_Julien_Conctat.html">contact</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">control &ensp;</a>  
+      <ul class="sous">
+      <li><a  id="shortcuts">
+      
+        <p><em>&rarr;</em> Next track</p>
+        <p><em>&larr;</em> Previous track</p>
+        <p><em>Space</em> Play/pause</p>
+      
+ </a></li>
+     </ul>
+  </ul>
+</nav>
+
+<div class="conteneur">
 
 
 
@@ -246,16 +274,10 @@ window.onload=function() {
     <li><a href="#" data-src="son/BB.mp3">BB</a></li>
     <li><a href="#" data-src="son/projetChoral.mp3">Projet chorale</a></li>
       </ol>
-    </div>
-
-
-    <div id="shortcuts">
-      <div>
-        <p><em>&rarr;</em> Next track</p>
-        <p><em>&larr;</em> Previous track</p>
-        <p><em>Space</em> Play/pause</p>
-      </div>
-    </div>
-
-  </body>
+  </div>
+</div>
+</div>
+ </body>
+   
+ 
 </html>
