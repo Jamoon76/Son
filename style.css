@@ -1,3 +1,15 @@
+   h1 {color: white; font-size: 1.2em; padding: 14px 2px 12px; margin: 0px; }
+      h1 em { font-style: normal; color: #999; }
+      a { color: #888; text-decoration: none; }
+      #wrapper { width: 400px; margin: 40px auto; float: center right;}
+      
+      ol { padding: 0px; margin:0px; list-style: decimal-leading-zero inside; color: #ccc; width: 300px; border-top: 1px solid #ccc; font-size: 0.9em;  }
+      ol li {  display: inline; padding: 0px 2vw 10px;  cursor: pointer; }
+      ol li a { display: inline; text-indent: -3.3ex; padding: 0px 0px 0px 20px; float: left;  }
+      li.playing { color: black; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3); }
+      li.playing a { color: yellow; }
+      li.playing:before { content: '♬'; width: 340px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: -24px; top: 9px; color: #000; font-size: 13px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); }
+
 
 	*{
     margin: 0px;
@@ -7,7 +19,7 @@
 
 nav{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     background-color: white;
     position: sticky;
     top: 0px;
@@ -29,7 +41,6 @@ nav ul::after{
     content: "";
     display: table;
     clear: both;
-
 }
 
 nav a{
@@ -48,11 +59,12 @@ nav a:hover{
 
 .sous{
     display: none;
+    margin-left: 25%;
     /*box-shadow: 0px 1px 2px #CCC;*/
     background-color: #CCC;
     position: relative;////////////////////////menu désend en meme temps (absolute/ relatif)
     width: 100%;
-    z-index: 1000;
+    z-index: 25px;
 }
 nav > ul li:hover .sous{
     display: block;
@@ -67,6 +79,7 @@ nav > ul li:hover .sous{
 .sous a{
     padding: 10px;
     border-bottom: none;
+        text-align: left;
             color: black;
 
 }
@@ -82,7 +95,7 @@ nav > ul li:hover .sous{
 }
 
 .conteneur{
-  margin: 50px 20px;
+  margin: 10px 20px;
   height: 1500px;
 }
 
@@ -108,11 +121,8 @@ article figure a{
 	text-decoration: none;
 	text-align: inline;
 	font-weight:normal;
-	background-color: black;
     font-weight:normal;
-	display: inline-table;
 	oppacity:2%;
-		border:0.15px solid white;
 
 		}
 
@@ -129,16 +139,9 @@ article{
 
 article figure ul li a{
 	color: yellow;
-	text-decoration: none;
-	text-align: inline;
-	font-weight:normal;
 	background-color: black;
     font-weight:normal;
-    display: inline-table;
 	oppacity:2%;
-	padding: 0.25vw;
-	border:1px solid red;
-
 		}
 figure ul li a:hover 
 {
@@ -146,6 +149,7 @@ color:yellow;
 }
 figure audio{
 	margin-top: 0%;
+	background-color: black;
 }
 
 nav header
@@ -239,7 +243,7 @@ h3
 
 
 
- article figure  
+ /*article figure  
 {
 	font-weight:normal;
 	text-transform:uppercase;
@@ -247,10 +251,9 @@ h3
 		padding: 0px;
 
 	display: inline-table;
-	background-color: black;
 	oppacity:2%;
 
-}
+}*/
 
 figure 
 {
@@ -260,7 +263,7 @@ figure
 	padding: 1vw;
 	padding-right: 0.5vw;
 	display: inline-table;
-	background-color: black;
+	/*background-color: black;*/
 	oppacity:2%;
 
 }
@@ -335,7 +338,6 @@ body article
 
  figure img h4 audio
 {
-	border:0.15px solid white;
 		max-width: 30%;
 
 
