@@ -13,7 +13,7 @@
   <style> body { padding: 0; margin: 0; } </style>
 
 		<meta name="viewport" content="width=device-width, initial-scale=0.6">
-		<link rel="stylesheet" href="style.css" href="music_list.js" />
+		<link rel="stylesheet" href="style.css" />
         <strong><title>Ja♬</title></strong>
     </head>
 
@@ -147,7 +147,10 @@ window.onload=function() {
    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pi-symbol.svg/160px-Pi-symbol.svg.png",
    "3o7TKFL1EISkk8VKNO.gif",
    "DjmY61OlzO1sQ.gif",
-   "s7t6HGxxORyZq.gif"
+   "s7t6HGxxORyZq.gif",
+   "https://upload.wikimedia.org/wikipedia/commons/3/3d/EUREKA_symbol.jpg",
+   "https://i.ytimg.com/vi/L6yX6Oxy_J8/maxresdefault.jpg"
+
 
   ]);
 };
@@ -170,7 +173,6 @@ window.onload=function() {
     </li>
     <li><a href="#">Contact</a></li>
      </ul>
-  </ul>
 </nav>
 </header>
 
@@ -181,7 +183,7 @@ window.onload=function() {
 
 	<audio src="" controls id="audioPlayer" preload>
 	</audio>
-</br>
+
 
     <a href="#" onclick="playlist.prevTrack();">PreV</a>
 	<a href="#" onclick="playlist.nextTrack();">NexT</a>
@@ -193,7 +195,9 @@ window.onload=function() {
 	</style>
 
 	<ol id="playlist">
-		<li class="current-song"><a href="son/Ohoh.mp3">Ohoh</a></li>
+		<li class="current-song"><a href="son/Ereka.mp3">Euréka</a></li>
+		<li><a href="son/Burgurs.mp3">Burgurs</a></li>
+		<li><a href="son/Ohoh.mp3">Ohoh</a></li>
 		<li><a href="son/pouf.mp3">Pouf</a></li>
 		<li><a href="son/PI.mp3">PI</a></li>
 		<li><a href="son/Reggae2.mp3">Reggae2</a></li>
@@ -253,8 +257,54 @@ window.onload=function() {
 </script>
 </article>
 
+
 <figure>
-<div id= 'ohoh'>
+<div id= "Ereka">
+	<style type="text/css">
+		#Ereka {
+			background-color: lightblue;
+			background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3d/EUREKA_symbol.jpg');
+			background-size:75%;
+			background-position: center;
+			background-repeat: no-repeat;
+			opacity: 95%;
+			width: 266px;
+			height: 250px;
+		}
+	</style>
+</div>
+</br>
+<h4>Euréka - 09/05/2020 </h4>
+      
+ <audio controls>
+	<source src="son/Ereka.mp3" type="audio/mpeg "height="100" width="300" src="son/Ereka.mp3" volume="60" loop="true" autostart="true"></audio>	
+</figure> 
+
+
+<figure>
+<div id= "Burgers">
+	<style type="text/css">
+		#Burgers {
+			background-color: yellow;
+			background-image: url('https://i.ytimg.com/vi/L6yX6Oxy_J8/maxresdefault.jpg');
+			background-size:75%;
+			background-position: center;
+			background-repeat: no-repeat;
+			opacity: 95%;
+			width: 266px;
+			height: 250px;
+		}
+	</style>
+</div>
+</br>
+<h4>Burgers - 08/05/2020 </h4>
+      
+ <audio controls>
+	<source src="son/Burgers.mp3" type="audio/mpeg "height="100" width="300" src="son/Burgers.mp3" volume="60" loop="true" autostart="true"></audio>	
+</figure> 
+
+<figure>
+<div id= "ohoh">
 	<style type="text/css">
 		#ohoh {
 			background-color: lightyellow;
@@ -269,11 +319,10 @@ window.onload=function() {
 	</style>
 </div>
 </br>
-	<h4>Ohoh - 04/05/2020</h4>
-<audio controls>
-	<source src="son/Ohoh.mp3" type="audio/mpeg "height="100" width="300" src="son/Ohoh.mp3" volume="60" loop="true" autostart="true">	
-		
-</audio>
+<h4>Ohoh - 04/05/2020 </h4>
+      
+ <audio controls>
+	<source src="son/Ohoh.mp3" type="audio/mpeg "height="100" width="300" src="son/Ohoh.mp3" volume="60" loop="true" autostart="true"></audio>	
 </figure> 
 
 <figure>
